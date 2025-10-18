@@ -1,3 +1,8 @@
+@font-face{
+        font-family: anugra;
+        src: url(./Anugra-Regular.ttf);
+}
+
 *{
         margin: 0;
         padding: 0;
@@ -8,3 +13,75 @@ html,body{
         height: 100%;
         width: 100%;
 }
+
+.main{
+        height: 100%;
+        width: 100%;
+        background-color: lightblue;
+        text-align: center;
+        padding: 20px;
+        font-family: anugra;
+}
+
+.main .info{
+        margin-bottom: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightcoral;
+}
+
+.main .about{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightgreen;
+}
+
+.main .education{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightyellow;
+}
+.main .education li{
+        list-style-type: none;
+        margin: 5px 0;
+        padding: 5px;
+        background: lightgray;
+}
+
+.main .skill{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightpink;
+}
+
+.main .skill li{
+        list-style-type: none;
+        margin: 5px 0;
+        padding: 5px;
+        background: lightcyan;
+}
+
+.main .project{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightgoldenrodyellow;
+}
+
+.main .project li{
+        list-style-type: none;
+        margin: 5px 0;
+        padding: 5px;
+        background: lightsteelblue;
+}
+
+.main .contact{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        background: lightseagreen;
+}       
