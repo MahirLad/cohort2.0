@@ -1,0 +1,87 @@
+@font-face {
+        font-family: pin-serif;
+        src: url(./assets/Sans/Sans.ttf);
+}
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        font-family: pin-serif;
+
+        background: #000;
+        color: white;
+
+        text-transform: uppercase;
+        
+}
+
+html,body{
+        height: 100%;
+        width: 100%;
+}
+
+
+main {
+        width: 100%;
+        height: 100vh;
+}
+
+main section{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+
+main section .title-one{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 1.5rem;
+        font-weight: 200;
+        opacity: 0.5;
+        z-index: 2;
+}
+
+main section .title-main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 9rem;
+        font-weight: 800;
+        z-index: 1;
+}
+
+main section .text{
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 0.9rem;
+        font-weight: 200;
+        opacity: 0.5;
+        z-index: 2;
+}
+
+main section .image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        height: 25%;
+        display: flex;
+        z-index: 3;
+}
+
+main section .image img{
+        width: 25%;
+        height: 100%;
+        object-fit: cover;
+        /* border-radius: 10px; */
+        object-fit: cover;
+        object-position: center;
+}
